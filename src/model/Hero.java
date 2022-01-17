@@ -15,6 +15,7 @@ public class Hero extends Character{ //person의 속성을 가지고 + 속성을
         isFlying = flying;
     }
 
+    @Override
     public void attack(Hero hero){
         System.out.println(this.getName() + "은" + hero.getName()+ "꼭 싸움을 했다.");
     }
